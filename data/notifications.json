@@ -1,0 +1,32 @@
+[
+    {
+        "name": "first msg",
+        "body": "text first msg",
+        "extra": ""
+    },
+    {
+        "name": "second msg",
+        "body": "text second msg",
+        "extra": ""
+    },
+    {
+        "name": "third msg",
+        "body": "text third msg",
+        "extra": "gray"
+    },
+    {
+        "name": "ff msg",
+        "body": "text firffst msg",
+        "extra": "gray"
+    },
+    {
+        "name": "fisssrst msg",
+        "body": "text firssssst msg",
+        "extra": ""
+    },
+    {
+        "name": "firsgggggt msg",
+        "body": "text firfffffffggst msg",
+        "extra": "gray"
+    }
+]
