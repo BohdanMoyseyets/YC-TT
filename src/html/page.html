@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notification</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
-    
+    @@include("components/header.html", {"page": "notification-page"})
+    <div class="container content-grid-block">
+        @@include("components/leftbar.html")
+        <div class="right-menu">
+            <div class="notification-content">
+                <div class="empty">
+                    <div><img src="img/megaphone.png" alt="img"></div>
+                    <div>Тут будуть показані всі нові сповіщення</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="tab-buttons">
+                <button class="tablink" onclick="openTab(event,'Account')">
+                    Мій акаунт
+                </button>
+                <button class="tablink" onclick="openTab(event,'History')">
+                    Історія транзакцій
+                </button>
+                <button class="tablink tablink_active" onclick="openTab(event,'Notify')">
+                    Сповіщення
+                </button>
+            </div>
+            <div id="Account" class="tab-content" style="display:none">
+                <div class="tab-content-title">Ваш акаунт</div>                
+                <div>
+                    @@loop("components/notification-items.html", "../../data/notifications.json")
+                </div>
+                @@include("components/pagination.html")
+            </div>
+            <div id="History" class="tab-content" style="display:none">
+                <div class="tab-content-title">Ваші транзакції</div>
+                <div>
+                    @@loop("components/notification-items.html", "../../data/notifications.json")
+                </div>
+                @@include("components/pagination.html")
+            </div>
+            <div id="Notify" class="tab-content">
+                <div class="tab-content-title">Ваші сповіщення</div>
+                <div>
+                    @@loop("components/notification-items.html", "../../data/notifications.json")
+                </div>
+                @@include("components/pagination.html")
+            </div>
+
+            @@include("components/footer.html")
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

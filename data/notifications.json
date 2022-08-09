@@ -1,32 +1,98 @@
 [
     {
-        "name": "first msg",
-        "body": "text first msg",
-        "extra": ""
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "unread",
+        "date": "Сьогодні 29.05.2019"
     },
     {
-        "name": "second msg",
-        "body": "text second msg",
-        "extra": ""
+        "name": "Оновленна вкладка судових рішень",
+        "body": "Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "read",
+        "date": "28.05.2019"
     },
     {
-        "name": "third msg",
-        "body": "text third msg",
-        "extra": "gray"
+        "name": "Сьогодні YouControl провів зустріч з представн...",
+        "body": "Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.",
+        "mark": "Гаряча новина",
+        "colorMark": "red",
+        "unread": "read",
+        "date": "28.05.2019"
     },
     {
-        "name": "ff msg",
-        "body": "text firffst msg",
-        "extra": "gray"
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "Вебінар",
+        "colorMark": "yellow",
+        "unread": "unread",
+        "date": " 21.05.2019"
     },
     {
-        "name": "fisssrst msg",
-        "body": "text firssssst msg",
-        "extra": ""
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "unread",
+        "date": "20.05.2019"
     },
     {
-        "name": "firsgggggt msg",
-        "body": "text firfffffffggst msg",
-        "extra": "gray"
+        "name": "Сьогодні YouControl провів зустріч з представн...",
+        "body": "Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.",
+        "mark": "Зустріч",
+        "colorMark": "green_blue",
+        "unread": "read",
+        "date": "15.05.2019"
+    },
+    {
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "unread",
+        "date": "Сьогодні 29.05.2019"
+    },
+    {
+        "name": "Оновленна вкладка судових рішень",
+        "body": "Synergistically aggregate inexpensive value after enterprise e-tailers. Assertively mesh cooperative resources before revolutionary bandwidth. Globally expedite team.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "read",
+        "date": "28.05.2019"
+    },
+    {
+        "name": "Сьогодні YouControl провів зустріч з представн...",
+        "body": "Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.",
+        "mark": "Гаряча новина",
+        "colorMark": "red",
+        "unread": "read",
+        "date": "28.05.2019"
+    },
+    {
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "Вебінар",
+        "colorMark": "yellow",
+        "unread": "unread",
+        "date": " 21.05.2019"
+    },
+    {
+        "name": "Нові функції моніторинга",
+        "body": "Uniquely fashion B2B content for one-to-one web-readiness. Continually embrace.",
+        "mark": "оновлення",
+        "colorMark": "green",
+        "unread": "unread",
+        "date": "20.05.2019"
+    },
+    {
+        "name": "Сьогодні YouControl провів зустріч з представн...",
+        "body": "Competently exploit competitive best practices through timely total linkage. Continually e-enable exceptional.",
+        "mark": "Зустріч",
+        "colorMark": "green_blue",
+        "unread": "read",
+        "date": "15.05.2019"
     }
 ]

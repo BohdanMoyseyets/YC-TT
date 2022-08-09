@@ -1,0 +1,58 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.pagination div {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination div {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-right: none;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1A1A1A;
+    cursor: pointer;
+}
+
+.prev {
+    border-radius: 3px 0px 0px 3px;
+    width: 35px;
+}
+
+.prev img {
+    transform: rotate(90deg);
+    width: 8px;
+}
+
+.next {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 35px;
+    border-right: 1px solid #E5E5E5 !important;
+}
+
+.next img {
+    transform: rotate(-90deg);
+    width: 8px;
+}
+.current{
+    color:#30BF60!important
+}

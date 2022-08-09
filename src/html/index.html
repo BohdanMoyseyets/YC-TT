@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
     @@include("components/header.html")
-    <h1 class="title">lllaasd asd asd adslll 333</h1>
-    <img src="img/notification.png" alt="aaaa">
-    <img src="img/arrow.png" alt="aaaa">
-    @@loop("components/notification-items.html", "../../data/notifications.json")
-    @@include("components/footer.html")
+    <div class="container content-grid-block">
+        @@include("components/leftbar.html")
+        <div class="right-menu">
+            <div class="notification-content">
+                <div class="notification-title">Сповіщення від YouControl</div>
+                @@loop("components/notification-items.html", "../../data/notifications.json")
+                <div class="notification-fixed-block">
+                    <a href="./page.html">Переглянути всі</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <img src="img/main-content.png" alt="img">
+            </div>
+            @@include("components/footer.html")
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
+
 </html>

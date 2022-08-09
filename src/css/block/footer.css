@@ -1,0 +1,147 @@
+.footer {
+    width: 100%;
+    padding: 24px 26px 37px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {}
+
+.footer__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.contacts {
+    font-weight: 500;
+}
+
+.contacts__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    margin-bottom: 6px;
+}
+
+.contacts__tel {
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-bottom: 8px;
+}
+
+.contacts__email {
+    font-size: 13px;
+    line-height: 15px;
+    color: #0091D9;
+    margin-bottom: 16px;
+}
+
+.contacts__question {
+    font-size: 13px;
+    line-height: 15px;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+.contacts__btn {
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #2CBE60;
+    border-radius: 2px;
+    width: 135px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-customers {
+    color: #1A1A1A;
+}
+
+.for-customers ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.for-customers li {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.projects {}
+
+.projects__elem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.projects__img {
+    width: 16px;
+    margin-right: 12px;
+}
+
+.projects__desc {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #999999;
+}
+
+.projects__title {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #1A1A1A;
+}
+
+.media {}
+
+.media__desc {
+    width: 180px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #999999;
+}
+.media ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 44px;
+    margin-top: 12px;
+}
+.media li{
+    margin-left: 8px;
+}
+
+.media__cards {
+    display: flex;
+    align-items: center;
+}
+
+.media__cards_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+}
+.media__img {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}

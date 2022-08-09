@@ -1,0 +1,80 @@
+.msg {
+    box-shadow: inset 0px 1px 0px #E5E5E5;
+    padding: 18px 16px;
+
+}
+.msg:hover {
+    background: #F3FBFF;
+    cursor: url(./../img/cursor.png), auto;
+
+}
+
+.read {
+    background-color: #fff;
+
+}
+
+.unread {
+    background-color: #F8F8F8;
+
+}
+
+.msg__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.msg__mark {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 8px 3px;
+    border-radius: 12px;
+
+}
+
+.msg__date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    color: #BEBEBE;
+}
+
+.msg__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: #1A1A1A;
+    margin-bottom: 12px;
+}
+
+.msg__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.yellow {
+    background: #F79E1B;
+}
+
+.red {
+    background: #D0021B;
+}
+
+.green {
+    background: #30BF60;
+}
+
+.green_blue {
+    background: #4CB8BF;
+}
