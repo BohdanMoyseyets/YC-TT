@@ -3,6 +3,29 @@
     padding: 18px 16px;
 
 }
+.tab-content .msg{
+    padding: 18px 30px;
+    box-shadow: none;
+    position: relative;
+    z-index: 4;
+}
+.tab-content .msg::after{
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: calc(100% - 60px);
+    box-shadow: inset 0px 1px 0px #E5E5E5;
+}
+.tab-content .msg:last-child::after{
+    content: none;
+}
+.tab-content .msg:first-child{
+    box-shadow: inset 0px 1px 0px #E5E5E5;
+}
 .msg:hover {
     background: #F3FBFF;
     cursor: url(./../img/cursor.png), auto;

@@ -145,3 +145,56 @@
     display: flex;
     align-items: center;
 }
+
+@media (max-width:768px){
+    .footer{
+        flex-wrap: wrap;
+
+    }
+    .footer__item {
+        width: 49%;
+        padding: 10px;
+    }
+    .footer__item:nth-child(2n) {
+        text-align: right;
+    }
+    .media__desc{
+        margin-left: auto;
+    }
+    .media ul{
+        margin-bottom: 20px;
+    }
+    .media__cards{
+        justify-content: end;
+    }
+    
+}
+@media (max-width:425px){
+    .footer{
+        justify-content: center;
+    }
+    .footer__item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__item:nth-child(2n) {
+        text-align: center;
+    }
+    .contacts__btn{
+        margin: 0 auto;
+    }
+    .projects__elem{
+        justify-content: center;
+    }
+    .media__desc{
+        margin:0 auto;
+    }
+    .media ul{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .media__cards{
+        justify-content: center;
+    }
+    
+}

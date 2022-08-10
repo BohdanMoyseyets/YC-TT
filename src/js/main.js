@@ -1,9 +1,11 @@
 function notificClick() {
     let element = document.getElementsByClassName("notification");
     let rightBlock = document.getElementsByClassName("right-menu");
+    let rmcb = document.getElementsByClassName("right-menu__close-btn");
     console.log(element);
     element[0].classList.toggle("notification-active");
     rightBlock[0].classList.toggle("open");
+    rmcb[0].classList.toggle("active");
 }
 
 function openTab(evt, tabName) {
@@ -18,4 +20,23 @@ function openTab(evt, tabName) {
     }
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " tablink_active";
+}
+function msgClick() {
+    let popup = document.getElementsByClassName("popup");
+    let popup_bg = document.getElementsByClassName("popup_bg");
+    popup[0].classList.toggle("popup__open");
+    popup_bg[0].classList.toggle("popup__open");
+    
+}
+function closePopupClick() {
+    let popup = document.getElementsByClassName("popup");
+    let popup_bg = document.getElementsByClassName("popup_bg");
+    popup[0].classList.remove("popup__open");
+    popup_bg[0].classList.remove("popup__open");
+    
+}
+function closeLeftClick() {
+    let left = document.getElementsByClassName("leftbar");
+    left[0].classList.toggle("hide");
+    
 }

@@ -13,17 +13,20 @@
 </head>
 
 <body>
-    @@include("components/header.html")
+    @@include("components/header.html",{"page": ""})
     <div class="container content-grid-block">
         @@include("components/leftbar.html")
         <div class="right-menu">
+            <div onclick="notificClick()" class="right-menu__close-btn"><img src="img/close.png" alt="close"></div>
             <div class="notification-content">
+                
                 <div class="notification-title">Сповіщення від YouControl</div>
                 @@loop("components/notification-items.html", "../../data/notifications.json")
                 <div class="notification-fixed-block">
                     <a href="./page.html">Переглянути всі</a>
                 </div>
             </div>
+            @@include("components/popup.html")
         </div>
         <div class="content">
             <div>

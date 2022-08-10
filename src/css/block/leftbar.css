@@ -8,4 +8,21 @@
     top: 0;
     background: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.117839);
+    display: block;
+}
+.leftbar.hide{
+    display: none;
+}
+@media(min-width:1201px){
+    .leftbar.hide{
+        display: block!important;
+    }
+}
+@media(max-width:1200px){
+    .leftbar{
+        display: none;
+    }
+    .leftbar.hide{
+        display: block;
+    }
 }
